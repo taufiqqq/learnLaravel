@@ -29,5 +29,5 @@ php artisan make:controller (ControllerName [ProductController])
 CREATE FOLDER FOR ENTITY IN VIEW - RESOURCES>VIEWS<br>
 (for example add file index.blade.php)
 <br><br>
-ADD ROUTE IN routes-web.php
+ADD ROUTE IN routes-web.php<br>
 Route::get('/(uri cam product ke about ke)', [(NamaController)::class, '(functionName)'])->name("(entityname).index");
