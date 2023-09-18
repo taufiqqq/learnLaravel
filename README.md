@@ -26,8 +26,8 @@ protected $fillable = ['var1', 'var2', ...];
 MAKE CONTROLLER - app-http-controller<br>
 php artisan make:controller (ControllerName [ProductController])
 <br><br>
-CREATE FOLDER FOR ENTITY IN VIEW - RESOURCES>VIEWS
-(for example add file index.blade.php)<br>
+CREATE FOLDER FOR ENTITY IN VIEW - RESOURCES>VIEWS<br>
+(for example add file index.blade.php)
 <br><br>
 ADD ROUTE IN routes-web.php
 Route::get('/(uri cam product ke about ke)', [(NamaController)::class, '(functionName)'])->name("(entityname).index");
